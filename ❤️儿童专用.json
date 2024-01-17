@@ -34,7 +34,16 @@
       "jar": "./暴脾气.jar",
       "ext": "./lib/圣城影视.json"
     },
-        {
+    {
+      "key": "996影院",
+      "name": "996影院",
+      "type": 3,
+      "api": "csp_Cs1369",
+      "searchable": 1,
+      "changeable": 1,
+       "jar": "./lib/custom_spider.jar"
+    },
+		 {
             "key": "儿童",
             "name": "🌏少儿┃教育",
             "type": 3,
