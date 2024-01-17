@@ -1,25 +1,36 @@
 ﻿{
-    "wallpaper": "https://www.dmoe.cc/random.php",
-    "spider": "./lib/xjy.jar;md5;e5f048383b35728c4f1bb21c708c0c7",
-     "sites": [
+    “壁纸”：“https://www.dmoe.cc/random.php”，
+    “蜘蛛”：“./lib/xjy.jar;md5;e5f048383b35728c4f1bb21c708c0c7”，
+  “生活”：[
+    {
+      "name" : "直播一" ,
+      “类型”：0，
+      “url”：“./lib/ppp.txt”，
+      “玩家类型”：1，
+      “ua”：“okhttp/3.15”，
+      "epg" : "http://epg.112114.xyz/?ch={name}&date={date}" ,
+      “标志”：“https://epg.112114.xyz/logo/{name}.png”
+    }
+] ,  
+	 “网站”：[
    {
-            "key": "知识",
-            "name": "🌏知识┃学堂",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0,
-"ext":"./lib/知识.json", "jar":""
-                   },
+            “关键”：“知识”，
+            "name" : "🌏知识┃学堂" ,
+            “类型”：3，
+            “api”：“csp_Bili”，
+            “可搜索”：0，
+            “快速搜索”：0，
+            “可过滤”：0，
+“ext”：“./lib/知识.json”，“jar”：“”
+                   } ,
         {
-            "key": "儿童",
-            "name": "🌏少儿┃教育",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0,
+            “钥匙”：“儿童”，
+            "name" : "🌏少儿┃教育" ,
+            “类型”：3，
+            “api”：“csp_Bili”，
+            “可搜索”：0，
+            “快速搜索”：0，
+            “可过滤”：0，
 "ext":"./lib/少儿.json", "jar":""
                     },
         {
@@ -57,8 +68,8 @@
 		{"key":"csp_hiker_兔小贝","name":"🌏兔小贝","type":3,"api":"csp_XYQHiker","searchable":0,"quickSearch":1,"filterable":1,"ext":"./lib/兔小贝.json","jar": ""},
 		{"key":"csp_hiker_兔小贝2","name":"🌏兔小贝2","type":3,"api":"csp_XYQHiker","searchable":0,"quickSearch":1,"filterable":1,"ext":"./lib/兔小贝2.json","jar": ""},
 		
-		{"key":"小灯塔","name":"🌏小灯塔","type":3,"api":"csp_Bili","searchable":0,"quickSearch":1,"filterable":1,"ext":"./lib/小灯塔百科.json"
-,"jar": ""},
+		{ "key" : "小灯塔" , "name" : "🌏小灯塔" , "type" : 3 , "api" : "csp_Bili" , "可搜索" : 0 , "quickSearch" : 1 , "可过滤" : 1、“ext”：“./lib/小灯塔百科.json”
+，“罐子”：“” }，
 		{"key":"小灯塔科学","name":"🌏小灯塔科学","type":3,"api":"csp_Bili","searchable":0,"quickSearch":1,"filterable":1,"ext":"./lib/小灯塔科学.json","jar": ""},
 		{"key":"小灯塔地理","name":"🌏小灯塔地理","type":3,"api":"csp_Bili","searchable":0,"quickSearch":1,"filterable":1,"ext":"./lib/小灯塔地理.json","jar": ""},
 		{"key":"小灯塔国学","name":"🌏小灯塔国学","type":3,"api":"csp_Bili","searchable":0,"quickSearch":1,"filterable":1,"ext":"./lib/小灯塔国学.json","jar": ""},
