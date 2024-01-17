@@ -14,16 +14,6 @@
 ],
 	 "sites": [
    {
-            "key": "知识",
-            "name": "🌏知识┃学堂",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0,
-"ext":"./lib/知识.json", "jar":""
-                   },
-	{
       "key": "csp_圣城",
       "name": "圣城影视",
       "type": 3,
@@ -52,56 +42,7 @@
       "changeable": 1,
     "jar": "./lib/custom_spider.jar"
     },
-	 {
-	 "key": "非凡",
-      "name": "非凡",
-      "type": 1,
-      "api": "http://cj.ffzyapi.com/api.php/provide/vod",
-      "searchable": 1,
-      "changeable": 1,
-      "jar": "./lib/custom_spider.jar"
-    },
-		 {
-            "key": "儿童",
-            "name": "🌏少儿┃教育",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0,
-"ext":"./lib/少儿.json", "jar":""
-                    },
-        {
-            "key": "小学",
-            "name": "🌏小学┃课堂",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0,
-"ext":"./lib/小学.json", "jar":""
-                    },
-        {
-            "key": "初中",
-            "name": "🌏初中┃课堂",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0,
-"ext":"./lib/初中.json", "jar":""
-                   },
-        {
-            "key": "高中",
-            "name": "🌏高中┃课堂",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0,
-"ext":"./lib/高中.json", "jar":""
-                    },
-{"key":"幼小衔接","name":"🌏幼小衔接","type":3,"api":"csp_Bili","searchable":0,"quickSearch":1,"filterable":1,"ext":"./lib/幼小衔接.json","jar": ""},
+    {"key":"幼小衔接","name":"🌏幼小衔接","type":3,"api":"csp_Bili","searchable":0,"quickSearch":1,"filterable":1,"ext":"./lib/幼小衔接.json","jar": ""},
 		{"key":"幼儿启蒙","name":"🌏幼儿启蒙","type":3,"api":"csp_Bili","searchable":0,"quickSearch":1,"filterable":1,"ext":"./lib/幼儿启蒙.json","jar": ""},
 		{"key":"csp_hiker_兔小贝","name":"🌏兔小贝","type":3,"api":"csp_XYQHiker","searchable":0,"quickSearch":1,"filterable":1,"ext":"./lib/兔小贝.json","jar": ""},
 		{"key":"csp_hiker_兔小贝2","name":"🌏兔小贝2","type":3,"api":"csp_XYQHiker","searchable":0,"quickSearch":1,"filterable":1,"ext":"./lib/兔小贝2.json","jar": ""},
